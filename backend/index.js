@@ -3,7 +3,7 @@ import mongoose from "mongoose"
 import cors from "cors"
 
 const app = express();
-mongoose.connect('mongodb://localhost/saiq',{
+mongoose.connect('mongodb+srv://martinilham15:2Azct32sNLJqNgj2@myserver.aw1tteh.mongodb.net/?retryWrites=true&w=majority',{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })
